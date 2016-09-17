@@ -1,0 +1,96 @@
+CameraFile (6.72) {
+   Manufacturer (e2v)
+   Model (Octopus)
+   CreationDate (20160904152047)
+   InterfaceInfo (1433) {
+      AcquisitionWindow (0, 0, 2048, 1000)
+      BinaryThreshold (0, 200)
+      BitDepth (12)
+      BitsPerComponent (12)
+      NumComponents (1)
+      NumPhantomComponents (0)
+      Unsigned16BitImage (Yes)
+      FrameTimeout (4000)
+      LUT (Normal)
+      LUTTransform (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+      MaxImageSize (2048, 1024)
+      ScanType (LineScan)
+      Scaling (1)
+      DetectPCLK (Yes)
+      EnablePoCL (No)
+      FastRearm (Yes)
+      SynchronizeEnables (No)
+      ConfigDelay (0)
+      Interlaced (No)
+      Serial {
+         Baud (9600)
+         SerialDisabled (Yes)
+         Databits (8)
+         Parity (N)
+         DTR (High)
+         RTS (High)
+         Stopbits (1)
+         TermChars (\r)
+      }
+      SignalLevels {
+         PGOutput (RS422)
+      }
+      ControlLinesSource {
+         UseDefaultSource (Yes)
+         CCSourceLine0 (None, 0)
+         CCSourceLine1 (None, 1)
+         CCSourceLine2 (None, 2)
+         CCSourceLine3 (None, 3)
+      }
+      Bayer {
+         Pattern (None)
+         Algorithm (Bilinear)
+         RedGain (1.000000)
+         GreenGain (1.000000)
+         BlueGain (1.000000)
+      }
+      TestImageType (None)
+      TestImageFrameBlanking (100)
+      TestImageLineBlanking (100)
+      NumCameraTaps (4)
+      NumCameraXZones (4)
+      NumCameraTapsPerXZone (1)
+      NumCameraYZones (1)
+      NumCameraTapsPerYZone (1)
+      BitMapping (TenTapAlt1)
+      TimeSlots (1)
+      InterleaveYZones (No)
+      XZonePixelExtractor (Left)
+      YZonePixelExtractor (Top)
+      NeedYChip (Yes)
+      NeedZChip (No)
+      LVALHighTrue (Yes)
+      FVALHighTrue (Yes)
+      DVALHighTrue (Yes)
+      DVALMode (0)
+      AcquisitionBitstream (Class07.dat)
+      AcquisitionBitstreamCompressed (Yes)
+      Tap (0) {
+         Position (Normal)
+         Start (Left, Top)
+      }
+   }
+   Pattern {
+      Action (PG) {
+         Line (0) {
+            Start (Low)
+         }
+         Line (1) {
+            Start (Low)
+         }
+         Line (2) {
+            Start (Low)
+         }
+         Line (3) {
+            Start (Low)
+         }
+         Clock (0x78)
+         RepeatSource (Fixed, 10)
+      }
+   }
+}
