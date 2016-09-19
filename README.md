@@ -10,4 +10,4 @@ For additional camera configurations, the ICD file can be opened with [National 
 ## Front Panel Basic
 This project provides an example of basic serial communication and control of the device.
 
-![Front Panel](images\e2v_osctopus_front_end.png "Front Panel")
+![Front Panel](https://github.com/WasatchPhotonics/E2V-Octopus-LabView/blob/master/images/e2v_osctopus_front_end.PNG?raw=true "Front Panel")
